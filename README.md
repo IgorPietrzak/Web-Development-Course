@@ -1,2 +1,2 @@
-# Write
-Enter a text and python will handwrite it for you.
+# Stuff I do in the course
+Everything is here.
