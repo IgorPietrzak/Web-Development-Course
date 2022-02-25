@@ -1,24 +1,51 @@
 body {
-  background-color: #EDCDBB;
+  margin: 0;
+  background-color: #051367;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 25px;
 }
 
-hr {
-  border-style: dotted none none;
-  border-color: #FFEDDB;
-  width: 500px;
-  border-width: 10px;
-}
-
-img {
-  height: 400px;
-  border-radius: 50%;
+.sky {
+  margin: 0;
+  position: relative;
+  background-color: #5D8BF4;
+  padding-top: 50px;
 }
 
 h1 {
-  color: #632626;
-  text-shadow: white 2px 2px;
+  position: relative;
+  left: auto;
+  right: auto;
+  top: 200px;
+  color: #DFF6FF;
 }
 
-td {
-  color: #632626;
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 150px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 200px;
+}
+
+.mountain {
+  margin: 400px auto 0 auto;
+}
+
+.night {
+  margin: 0;
+  position: relative;
+  background-color: #261C2C;
+  padding-top: 100px;
+}
+
+.moon {
+  height: 10%;
+  width: 10%;
 }
