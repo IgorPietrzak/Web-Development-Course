@@ -21,6 +21,19 @@ h1 {
   color: #DFF6FF;
 }
 
+.job {
+  position: relative;
+  color: #DFF6FF;
+  left: auto;
+  right: auto;
+  top: 200px;
+}
+
+.math {
+  color: #DFF6FF;
+  text-decoration: underline;
+}
+
 .top-cloud {
   position: absolute;
   right: 150px;
@@ -39,13 +52,21 @@ h1 {
 }
 
 .night {
-  margin: 0;
   position: relative;
-  background-color: #261C2C;
-  padding-top: 100px;
+  background-color: #21325E;
+  padding-top: 20px;
 }
 
 .moon {
-  height: 10%;
   width: 10%;
+  height: 10%;
+  display: block;
+  margin: auto;
+}
+
+.las {
+  margin: 400px auto 0 auto;
+  display: inline-block;
+  height: 20%;
+  width: auto;
 }
