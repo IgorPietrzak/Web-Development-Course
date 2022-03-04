@@ -19,6 +19,7 @@ h1 {
   right: auto;
   top: 200px;
   color: #DFF6FF;
+  font-size: 6.25rem;
 }
 
 .job {
@@ -27,6 +28,7 @@ h1 {
   left: auto;
   right: auto;
   top: 200px;
+  font-size: 2.5rem;
 }
 
 .math {
