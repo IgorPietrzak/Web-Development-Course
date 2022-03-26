@@ -55,25 +55,5 @@ h1 {
 
 .night {
   position: relative;
-  background-color: #21325E;
-  padding-top: 20px;
-}
-
-.moon {
-  width: 10%;
-  height: 10%;
-  display: block;
-  margin: auto;
-}
-
-.las {
-  margin: 400px auto 0 auto;
-  display: inline-block;
-  height: 20%;
-  width: auto;
-}
-
-#las1 {
-  position: absolute;
-  left: 0;
+  background-color: #533E85;
 }
