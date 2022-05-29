@@ -1,59 +1,58 @@
+/* text-align: center; <--- CENTERS EVERYTHING THAT DOES NOT HAVE A WIDTH SET */
+/* USE MARGIN/POSITION TO CENTER STUFF WITH WIDTH PROPERTY ASSIGNED */
 body {
   margin: 0;
-  background-color: #051367;
-  text-align: center;
-  font-family: 'Sacramento', cursive;
-  font-size: 25px;
+  background-color: #0A1931;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center  ;
 }
 
-.sky {
-  margin: 0;
-  position: relative;
-  background-color: #5D8BF4;
-  padding-top: 50px;
+@keyframes gradient {
+  from {background-color: #FF019A;}
+  to {background-color: #FFB12B;}
 }
 
 h1 {
-  position: relative;
-  left: auto;
-  right: auto;
-  top: 200px;
-  color: #DFF6FF;
-  font-size: 6.25rem;
+  text-decoration:double;
+  color: #FF019A;
+  font-size: 60px;
+  animation-name: gradient;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-.job {
-  position: relative;
-  color: #DFF6FF;
-  left: auto;
-  right: auto;
-  top: 200px;
-  font-size: 2.5rem;
+a {
+  color: #FFB12B;
 }
 
-.math {
-  color: #DFF6FF;
-  text-decoration: underline;
+div {
+  width: 300px;
+  height: 300px;
+  margin: 0;
 }
 
-.top-cloud {
+.minerva {
+  background-color: #E900FF;
   position: absolute;
-  right: 150px;
-  top: 150px;
-
+  left: 420px;
 }
 
-.bottom-cloud {
+.email {
+  background-color: #C402D6;
   position: absolute;
-  left: 200px;
-  bottom: 200px;
+  left: 720px;
 }
 
-.mountain {
-  margin: 400px auto 0 auto;
+.github {
+  background-color: #8C03C1;
+  position: absolute;
+  top: 457px;
+  left: 420px;
 }
 
-.night {
-  position: relative;
-  background-color: #533E85;
+.kolorki {
+  background-color: #A803EA;
+  position: absolute;
+  top: 457px;
+  left: 720px;
 }
