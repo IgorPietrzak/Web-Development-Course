@@ -34,25 +34,25 @@ div {
 .minerva {
   background-color: #E900FF;
   position: absolute;
-  left: 420px;
+  left: 29.181vw;
 }
 
 .email {
   background-color: #C402D6;
   position: absolute;
-  left: 720px;
+  left: 50vw;
 }
 
 .github {
   background-color: #8C03C1;
   position: absolute;
-  top: 457px;
-  left: 420px;
+  top: 64.2vh;
+  left: 29.181vw;
 }
 
 .kolorki {
   background-color: #A803EA;
   position: absolute;
-  top: 457px;
-  left: 720px;
+  top: 64.2vh;
+  left: 50vw;
 }
