@@ -1,15 +1,16 @@
 /* text-align: center; <--- CENTERS EVERYTHING THAT DOES NOT HAVE A WIDTH SET */
 /* USE MARGIN/POSITION TO CENTER STUFF WITH WIDTH PROPERTY ASSIGNED */
+/* 100% = 16px = 1em */
 body {
   margin: 0;
   background-color: #0A1931;
   font-family: 'PT Sans', sans-serif;
-  text-align: center  ;
+  text-align: center;
 }
 
 @keyframes gradient {
-  from {color: #FF019A;}
-  to {color: #FFB12B;}
+  from {background-color: #FF019A;}
+  to {background-color: #FFB12B;}
 }
 
 @keyframes rotate {
@@ -33,13 +34,14 @@ body {
 h1 {
   text-decoration:double;
   color: #FF019A;
-  font-size: 60px;
+  font-size: 3.75rem;
   animation: rotate 10s infinite
 }
 
 a {
-  color: #FFB12B;
+  color: black;
   position: inline-block;
+  text-decoration: none;
 }
 
 div {
@@ -49,28 +51,32 @@ div {
 }
 
 .minerva {
-  background-color: #E900FF;
+  /* background-color: #E900FF; */
   position: absolute;
   left: 29.181vw;
+  animation: gradient 10s alternate infinite;
 }
 
 .email {
-  background-color: #C402D6;
+  background-color: #FF019A;
   position: absolute;
   left: 50vw;
+  animation: gradient 10s alternate-reverse infinite;
 }
 
 .github {
-  background-color: #8C03C1;
+  background-color: #FF019A;
   position: absolute;
   top: 64.2vh;
   left: 29.181vw;
+  animation: gradient 10s alternate-reverse infinite;
 }
 
 .kolorki {
-  background-color: #A803EA;
+  background-color: #FF019A;  
   position: absolute;
   top: 64.2vh;
   left: 50vw;
+  animation: gradient 10s alternate infinite;
 }
 
