@@ -55,9 +55,16 @@ h2 {
 
 /* Title Image */
 
+.img-div {
+    position: relative;
+    padding-bottom: 530px;
+}
+
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
@@ -65,6 +72,9 @@ h2 {
 #features {
     text-align: center;
     padding: 7% 15%;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
 }
 
 .emoji {
@@ -130,3 +140,31 @@ p {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.last-p {
+    padding-bottom: 25px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Media query */
+
+@media screen and (max-width: 1028px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+} 
