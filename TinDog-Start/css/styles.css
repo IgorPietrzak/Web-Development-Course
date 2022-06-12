@@ -168,3 +168,27 @@ p {
         text-align: center;
     }
 } 
+
+/* Call to action section */
+
+#cta {
+    background-color: #FF4C68;
+    text-align: center;
+}
+
+.cta-h3 {
+    color: #FFF;
+    font-size: 5rem;
+    padding: 5% 10%;
+}
+
+/* Footer section */
+
+#footer {
+    text-align: center;
+    padding: 15% 5% 3% 5%;
+}
+
+.footer-emojis {
+    padding-bottom: 2%;
+}
