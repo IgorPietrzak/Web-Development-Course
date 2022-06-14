@@ -1,1 +1,1 @@
-TinDog Starting Files
+Pure HTML and CSS website.
