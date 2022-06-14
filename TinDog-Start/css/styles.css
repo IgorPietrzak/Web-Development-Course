@@ -1,28 +1,48 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1 { 
+h1, h2, h3, h4, h5, h6 { 
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem; 
+}
+
+p {
+    color: #8f8f8f;
+    margin: auto;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 5rem; 
     line-height: 1.5; 
     font-weight: 900;
+    color: #FFF;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
+.section-heading {
     font-size: 3rem;
-    font-weight: bold;
     line-height: 1.5;
 }
 
 #title {
-    background-color: #FF4C68;
-    color: #FFF;
+    text-align: left;
 }
 
 .container-fluid {
     padding: 3% 15%;
+}
+
+/* Sections */
+
+.coloured-section {
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+.white-section {
+    background-color: #FFF;
 }
 
 /* Navigation Bar */
@@ -70,9 +90,7 @@ h2 {
 /* Features Section */
 
 #features {
-    text-align: center;
     padding: 7% 15%;
-    background-color: #FFF;
     position: relative;
     z-index: 1;
 }
@@ -88,28 +106,18 @@ h2 {
     color: #FF4C68;
 }
 
-.featuresr {
-    text-align: center;
+.featuresr { 
     padding: 5%;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif; 
+.feature-title {
     font-size: 1.5rem;
-    font-weight: bold;
-}
-
-p {
-    color: #8f8f8f;
-    margin: auto;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-    text-align: center;
     background-color: #EF8172;
-    color: #FFF;
 }
 
 .testimonial-img {
@@ -132,7 +140,6 @@ p {
 
 #press {
     background-color: #EF8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -141,10 +148,14 @@ p {
     margin: 20px 20px 50px;
 }
 
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /* Pricing Section */
 
 #pricing {
-    text-align: center;
     padding: 100px;
 }
 
@@ -171,21 +182,13 @@ p {
 
 /* Call to action section */
 
-#cta {
-    background-color: #FF4C68;
-    text-align: center;
-}
-
 .cta-h3 {
-    color: #FFF;
-    font-size: 5rem;
     padding: 5% 10%;
 }
 
 /* Footer section */
 
 #footer {
-    text-align: center;
     padding: 15% 5% 3% 5%;
 }
 
